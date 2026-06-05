@@ -19,6 +19,7 @@ const WRITE_ACTIONS = new Set([
   // Deck operations
   "createDeck",
   "changeDeck",
+  "deleteDecks",
   // Tag operations
   "addTags",
   "removeTags",

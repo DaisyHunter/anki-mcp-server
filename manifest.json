@@ -168,6 +168,14 @@
       "description": "Move cards to a different deck. Target deck will be created if it doesn't exist"
     },
     {
+      "name": "renameDeck",
+      "description": "Safely rename an Anki deck while preserving all cards and their scheduling history. This is the recommended way to rename decks"
+    },
+    {
+      "name": "deleteDecks",
+      "description": "Delete Anki decks. By default only empty decks can be deleted. Set cardsToo=true to delete decks that contain cards (with explicit confirmation required)"
+    },
+    {
       "name": "retrieveMediaFile",
       "description": "Download a media file from Anki's collection.media folder as base64 content"
     },

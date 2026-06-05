@@ -38,6 +38,8 @@ export { ListDecksTool } from "./tools/list-decks.tool";
 export { DeckStatsTool } from "./tools/deck-stats.tool";
 export { CreateDeckTool } from "./tools/create-deck.tool";
 export { ChangeDeckTool } from "./tools/change-deck.tool";
+export { RenameDeckTool } from "./tools/rename-deck.tool";
+export { DeleteDecksTool } from "./tools/delete-decks.tool";
 // Media tools (split from former mediaActions aggregate)
 export { RetrieveMediaFileTool } from "./tools/retrieve-media-file.tool";
 export { GetMediaFilesNamesTool } from "./tools/get-media-files-names.tool";
@@ -82,6 +84,8 @@ import { ListDecksTool } from "./tools/list-decks.tool";
 import { DeckStatsTool } from "./tools/deck-stats.tool";
 import { CreateDeckTool } from "./tools/create-deck.tool";
 import { ChangeDeckTool } from "./tools/change-deck.tool";
+import { RenameDeckTool } from "./tools/rename-deck.tool";
+import { DeleteDecksTool } from "./tools/delete-decks.tool";
 import { RetrieveMediaFileTool } from "./tools/retrieve-media-file.tool";
 import { GetMediaFilesNamesTool } from "./tools/get-media-files-names.tool";
 import { StoreMediaFileTool } from "./tools/store-media-file.tool";
@@ -121,6 +125,8 @@ export const ESSENTIAL_MCP_TOOLS = [
   DeckStatsTool,
   CreateDeckTool,
   ChangeDeckTool,
+  RenameDeckTool,
+  DeleteDecksTool,
   // Media tools
   RetrieveMediaFileTool,
   GetMediaFilesNamesTool,
